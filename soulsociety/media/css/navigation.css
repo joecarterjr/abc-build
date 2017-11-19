@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main_navigation ul,
+#subnav ul {
+	list-style-type: none;
+}
+#main_navigation li{
+	padding:0 17px;
+	}
+
+#main_navigation li,
+#subnav li {
+	float:left;
+	margin:0;
+	
+	}
+#subnav li {
+	padding:0 10px;
+
+}	
+	
+	
+#main_navigation a,
+#subnav a{
+	background-color:transparent;
+	background-position:0 0;
+	display:block;
+	height:17px;
+	line-height:7.2em;
+	margin:0;
+	overflow:hidden;
+	padding:0;
+
+}	

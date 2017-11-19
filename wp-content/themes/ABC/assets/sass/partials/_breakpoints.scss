@@ -1,0 +1,478 @@
+
+$smallScreen: max-width 560px;
+$mediumScreen: max-width 960px;
+.slicknav_menu {
+	display:none;
+}
+
+			//Social Menu 
+	#menu-social-footer {
+		height: auto;
+		padding: 15px;
+		display: block;
+		background: none;
+		img{
+	  height: auto;
+	  width: auto;
+		}
+	ul li{
+		width:15%;
+		//margin-bottom: 25px;
+		text-align: center;
+	}
+	}
+
+@include breakpoint($mediumScreen){
+.home #header-quote {
+		height:300px;
+		padding:40px 60px;
+		widows: 3;
+		 // padding: 40px 160px;
+	}
+
+	.work {
+    width: 33.33%;
+    height: auto;
+	}
+
+	.quote {
+	   font-size: 2.5em;
+	 }
+
+//	 menu-main-navigation
+	#menu-primary{	
+		@include span(1 of 1); 
+	}
+	
+	#menu-main-navigation,
+	#menu-primary, 
+	#menu-social,
+	#sidebar{
+		
+		display: none;
+		
+	}
+
+		.slicknav_menu {
+		  display: block;
+		   @include background(image-url("siteIDscreenLTalt.png") no-repeat $footer-bg);
+		   background-position: 5px 5px;
+		   padding:12px 10px 6px;
+		   background-size: 215px;
+		   //@include background(image-url("siteIDscreenDARK.png"));
+
+		}
+
+	
+/*	.work-home:nth-child(3n + 1), 
+	.work-home:nth-child(3n + 2),
+	.work-home:nth-child(3n + 3){
+	  width: 50%;
+	  
+	  }*/
+ .logoBack p {
+	  padding: 10% 4% 0;
+	}
+#footer-container {
+  padding: 25px 10px 10px;
+}
+
+	  .work-home {
+		float: left;
+		width: 50%;
+		clear:none;
+		img{
+			width: 100%;
+		}
+	}	
+	#home-tweets{
+		width:100%;
+		padding: 15px;
+		background-size: 20%;
+	}
+	.tweet_data {
+	font-size: 1.75em !important;
+  	}
+.page-id-7 .content {
+	  padding: 5% 15%;
+}
+	#contactArea h1{line-height: 1em;}
+
+
+	.highlight {
+	  line-height: 1.3em;
+	  font-size: 1.55em;
+	  letter-spacing: .13em;
+	  }
+
+
+	.header h3 {
+		padding: 10% 5%;
+		margin-top: -340px;
+	}	
+
+.page-id-9{
+.content{
+	@include span(12);
+	}
+	}
+	.page-id-5{
+	.aboutBottom {
+		@include span(12);
+		//margin: 0 10%;
+		padding: 0 0 0 10%;
+	}
+	}
+	
+	 .blog-post-image {
+	  width: 125%;
+	}
+}
+
+@include breakpoint(max-width 820px){
+.highlight{
+	font-size:.9em;
+	padding-right: 50px;
+		}
+
+	.sketchBack p, .logoBack p {
+	  //padding: 10% 0 0 !important;
+	  letter-spacing: .025em;
+	  font-size: .9em;
+	}
+
+}
+
+@include breakpoint(max-width 693px){
+	.header h3 {
+		padding: 10%;
+		margin-top: -300px;
+	}	
+
+	.header h2 {
+		margin-top: -105px;
+		line-height: 1;
+		}
+
+
+}
+
+
+@include breakpoint (max-width 780px) {
+	 .logoBack p {
+	  padding: 2% 2% 0 !important;
+	  font-size: .9em;
+	  line-height: 1.2em;
+	}
+
+}
+
+
+@include breakpoint(max-width 650px){
+.highlight{
+	
+	width:100%;
+	margin: 0px;
+	padding: 10px 30px;
+	left: 0;
+	text-align: left;
+	height:auto;
+		}
+		
+		
+		
+			.page-id-5 {
+		.aboutTop {
+			@include span (12 of 12);
+			height: auto;
+			margin: 0px;
+			text-align: center;
+		}
+		
+		.aboutBottom {
+			@include span (1 first of 1);
+		}
+		.aboutPicture{
+			float: none;
+			position: inherit;
+			text-align: center;
+			padding:20px 10px;
+			margin:0px;
+			display: block;
+			width: 50%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto
+		}
+		img{
+			text-align: center;
+		}
+	}
+
+	 .logoBack p {
+	  padding: 2% 2% 0 !important;
+	  font-size: .9em;
+	  line-height: 1.1em;
+	}
+
+
+}
+
+@include breakpoint($smallScreen){
+
+	.work {
+    width: 75%;
+    height: auto;
+    margin: 0 12.5%;
+	}
+
+.catProject {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+	/**** HEader Quote ****/	
+	.home #header-quote {
+		height:400px;
+		padding:80px 25px;
+		//background-size: cover;
+		 // padding: 40px 160px;
+	}
+
+#menu-social-footer{
+	display: block;
+}
+	.quote {
+	   font-size: 2em;
+	 }
+
+
+	#footer-container {
+
+  padding: 25px 20px 10px;
+
+
+		#footer1 {
+			@include span(1 of 1);
+			}
+		#footer2 {
+			@include span(1 of 1 no-gutters);
+			float: none;
+		}
+
+	}
+	.header{
+		height:400px;
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 20px;
+		img{
+		max-height: 100%;
+		width: auto;
+/*	    position: relative;
+	    top: -9999px;
+	    bottom: -9999px;
+	    left: -9999px;
+	    right: -9999px;*/
+	    margin: auto;
+	    margin-left: -160px;
+
+		}
+	}
+	.lgIMG, .halfIMG{
+		height: 400px;
+		position: relative;
+		overflow: hidden;
+	    img {
+	    max-height: 100%;
+	    width: auto;
+	    position: absolute;
+	    top: -9999px;
+	    bottom: -9999px;
+	    left: -9999px;
+	    right: -9999px;
+	    margin: auto;
+	    }
+
+	}
+	
+	.xypiLOGO img {
+		height: 95%;
+		width: auto;
+	}
+	.work-home:nth-child(3n + 1), 
+	.work-home:nth-child(3n + 2),
+	.work-home:nth-child(3n + 3){
+	  clear: both;
+	  width: 100%;
+	  }
+	
+	.work-home {
+		float: none;
+		width:100%;
+		img{
+			width: 100%;
+		}
+		
+	
+	}	
+	
+		#home-tweets{
+		width:100%;
+		padding: 5px;
+		background-size: 25%;
+	}
+	.tweet_data {
+  font-size: 1.3em !important;
+}
+
+
+	.page-id-9{
+		.content{
+			@include span(1 of 1);
+			
+	}		
+	#contactArea h1{line-height: 1em;}
+	
+}
+	#polygon{
+	margin: 30px 0px;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    background-position: center;
+   		h1{font-size: 1.2em;}
+		h2 a{font-size:1.8em;}
+		h3 a{font-size:.85em;}
+	
+	}
+	
+	
+	#fbuilder .pbSubmit {
+	  top: -40px;
+	}
+
+
+	.halfIMG, .thinIMG, .thinIMGr, .midIMG {
+		width:100%;
+	}
+.thinIMG, .thinIMGr {
+	@include span (12 of 12);
+	margin: 0;
+	padding: 0 4%;
+}
+
+.page-id-7 .content {
+	  padding: 5% 30%;
+}
+
+	.highlight{
+		font-size: 1em;
+		}
+		
+.projectPagination img {
+  width: 125%;
+  margin: -7% 0%;
+  height: auto;
+}
+
+		#headerClick {
+	display: block;
+	width: 85%;
+	height: 55px;
+	position: absolute;
+	top: 0;
+		a {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+}
+
+	.header h1 {
+		margin-top: -250px;
+		}
+
+	.header h2 {
+		margin-top: -135px;
+		line-height: 1;
+		}
+	.header h3 {
+		margin-top: -340px;
+		padding: 3%;
+	}	
+	.pullQTE {
+	  color: #ea7225;
+	  font-size: 1.5em;
+//	  font-family: 'Lato Hairline Italic', san-serif;
+	  line-height: 1.1em;
+	  }
+	  
+	  .aboutBottom p {
+		  
+		    margin: 15px;
+
+	  }	
+	  .content p{
+		  padding:10px 50px;
+	  }	
+	 
+	 .blog-post-image {
+	  width: 143%;
+	  height: 252px;
+	  overflow: hidden;
+}
+
+
+	.sketchBack p, .logoBack p {
+	  padding: 2% 40px !important;
+	  width: 100%;
+	  float:inherit;
+	  letter-spacing: .025em;
+	  font-size: .9em;
+	  line-height: 1.1em;
+}
+
+.siteIDoverlay {
+  display: block;
+  width: 85%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 55px;
+  float: left;
+  a{
+	  display: block;
+	  height: 55px;
+  }
+}
+
+//Social Menu 
+#menu-social-footer {
+  height: 200px;
+  padding: 19px;
+  //margin: 25px 0 0;
+  img{
+  height: auto;
+  width: auto;
+	}
+	ul {
+  padding: 10px;
+  height: 80px;
+	}
+ul li{
+	width:32%;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+}
+
+	  
+	  }
+
+
+
+
+

@@ -1,0 +1,212 @@
+br {
+	clear: both;
+}
+
+#header-quote{display:none;
+}.home #header-quote{
+ @include background(image-url("headerPattern.jpg"));
+
+//background-image: url(/wp-content/themes/ABC/assets/images/headerPattern.jpg);
+color:$white;
+height:300px;
+display: block;
+padding: 40px 160px;
+background-size: cover;
+}
+
+.work-home img {
+	width: 320px;
+	height: auto;
+}
+
+.work-home {
+	line-height: 0;
+}
+
+#home-tweets{
+	height:349px;
+	width: 320px;
+	background: url(/wp-content/themes/ABC/assets/images/TwitterAvLogo1.png) $footer-bg no-repeat 95% 95%;
+	background-size: 25%;
+	overflow: inherit;
+}
+
+body{
+ @include background(image-url("backgroundPattern.png"));
+
+}
+
+.container {
+	  background-color: rgba(255,255,255,0.70);
+}
+
+/*.lgIMG {
+	text-align: center;
+	margin: 20px 0;
+}
+.halfIMG {
+	text-align: center;
+	margin: 0;
+}*/
+
+
+span img {
+	width: 100%;
+	height: auto;
+}
+
+.aboutPicture{
+		float:left;
+		z-index: 10000;
+		position: absolute;
+}
+
+.aboutTop{
+	height: 275px;
+	margin-top: 50px;
+}
+/* Home Twitter Styles */
+ul.dark li.tweets_avatar {
+	background: none !important;
+	color: #fff !important;
+}
+
+div.times{
+	float:left;
+	margin-top: 5px;
+}
+
+.fetched_tweets {	 
+  text-align: left;	
+}
+
+/* About Page Styles */
+.page-id-5 #sidebar {
+	background: $nav-primary-text;
+}
+
+.page-id-5 #sidebar ul.dark li.tweets_avatar {
+	background: none !important;
+	color: #fff !important;
+}
+
+.page-id-5 #sidebar div.times{
+	float:left;
+	margin-top: 10px;
+}
+
+/* Contact page Styles */
+#polygon {
+	width: 373px;
+	height: 189px;
+	background: url('/wp-content/uploads/2015/03/polygon.png') no-repeat;
+	display: block;
+	padding: 24px;
+	margin: 50px auto 20px;
+}
+
+#contactArea {
+	margin: 0 50px;
+	text-align: center;
+}
+
+.page-id-9 #sidebar {
+	//background: #45bbe6;
+	margin-top: 50px;
+
+
+}
+
+.page-id-9 {
+	#sidebar ul.dark li.tweets_avatar {
+	background: none !important;
+	color: #fff !important;
+	}
+
+	#sidebar div.times{
+		float:left;
+		margin-top: 10px;
+	}
+	.fetched_tweets {
+	//background: $nav-primary-text;	
+	background: $nav-primary-text;	
+}
+}
+
+#contactArea img {
+	margin-bottom: 25px;
+}
+
+li.pins-feed-item {
+	float:none !important;
+	margin:5px auto !important;
+}
+
+/* XYPI Specific Styles */
+.xypiLOGO {
+	background-color: #0076a3;
+	padding: 10px 100px;
+}
+
+.sketchBack img {
+	margin-bottom: -6px;
+}
+.sketchBack .midIMG, .logoBack .halfIMG {
+	margin: 0;
+}
+/* Footer Specific Styles */
+.footerLOGO {
+	width: 65px;
+	height: auto;
+	float: left;
+	margin-right: 14px;
+}
+
+#footer-container{
+	background-color: $footer-bg;
+	padding: 25px 30px 10px;
+	margin-top: 5px;
+}
+
+.separator-doubled{
+	display: none;
+}
+.catProject{
+	width:25%; 
+    height:auto;
+    float: left; 
+}
+
+.catImage { 
+	img{
+	width:100%;
+			
+    height: auto;}
+    
+} 
+.catImage p { 
+	position: relative; 
+	top: -50px;
+	 padding: 10px; 
+//	 width: 218px; 
+	 color:$nav-primary-text;
+	 margin: 5px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin: 0 5%;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+

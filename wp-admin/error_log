@@ -1,0 +1,1 @@
+[06-Jul-2015 15:40:48 UTC] PHP Fatal error:  Call to undefined function send_origin_headers() in /home/adamesd/public_html/anthonybrowncreates.com/wp-admin/admin-ajax.php on line 25

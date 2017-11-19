@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#383938;
+	padding:0px;
+	margin:0px;
+	
+	}
+#container {
+	background-color:#555656;
+	width:1082px;
+	margin: 0px auto;
+	background-image:url(../images/main_border.gif);
+	background-repeat:no-repeat;
+	background-position:37px 206px;
+	}
+#header{
+	padding-top:25px;
+	background-color:#383938;
+	
+	}
+#main_logo {
+	width:416px;
+	position:absolute;
+	top:25px;
+}
+
+#presentedby{
+	width:275px;
+	float:right;
+	}
+#overlay_home, 
+#overlay_about,
+#overlay_workshop,
+#overlay_competition,
+#overlay_sponsors,
+#overlay_venue,
+#overlay_contact {
+	height:709px;
+	width:990px;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+
+}
+
+#words {
+	position:relative;
+	}
+
+.overlay_content{
+	width:415px;
+	height:686px;
+	margin-left:15px;
+	padding-right:20px;
+}
+.content{
+	
+	height:700px;
+	width:1004px;
+	overflow:hidden;
+	position:absolute;
+	top:220px;
+	padding-left:44px;
+		}
+
+.hidden{
+	display:none;
+	}
+	
+.photos {
+	margin:38px 44px 10px;
+	height:709px;
+	width:990px;
+	overflow:hidden;
+	}
+.pics{	
+	position:relative;
+}
+
+.overflow {
+	overflow:auto;
+	background-color:#0f0;
+}

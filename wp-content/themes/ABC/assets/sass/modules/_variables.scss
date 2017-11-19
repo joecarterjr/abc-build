@@ -1,0 +1,27 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+$header-graphic:	'headerPattern.jpg';
+
+
+//Colors
+$white: #fff;
+$nav-primary-bg:	#e7e7e7;
+$nav-social-bg:		#7c7c7c;
+$nav-primary-text:	#48adbb;
+$footer-bg: 		#424243;
+$nav-secondary:		#d8d358;
+
+// Susy Grid
+//$total-columns  : 3;
+//$column-width   : 320px;
+//$gutter-width   : 0;
+//$grid-padding   : $gutter-width;
+$susy: (
+  container: 60em,
+  columns: 12,
+  gutters: 0/6
+);
+
+
+$orange:#d8d358;

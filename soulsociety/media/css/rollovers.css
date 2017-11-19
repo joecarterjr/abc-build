@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main_navigation .nav_home a{
+	background:transparent url(../images/navigation/main_home.gif) no-repeat scroll 0 0;
+	width:66px;
+	}
+#main_navigation .nav_home a:hover{
+	background-position:0px -18px;
+	}
+	
+#main_navigation .nav_about a{
+	background:transparent url(../images/navigation/main_about.gif) no-repeat scroll 0 0;
+	width:81px;
+	}
+#main_navigation .nav_about a:hover{
+	background-position:0px -18px;
+	}
+	
+#main_navigation .nav_workshops a{
+	background:transparent url(../images/navigation/main_workshops.gif) no-repeat scroll 0 0;
+	width:150px;
+	}
+#main_navigation .nav_workshops a:hover{
+	background-position:0px -18px;
+	}
+	
+#main_navigation .nav_competition a{
+	background:transparent url(../images/navigation/main_competition.gif) no-repeat scroll 0 0;
+	width:154px;
+	}
+#main_navigation .nav_competition a:hover{
+	background-position:0px -18px;
+	}
+	
+	
+#main_navigation .nav_sponsors a{
+	background:transparent url(../images/navigation/main_sponsors.gif) no-repeat scroll 0 0;
+	width:126px;
+	}
+#main_navigation .nav_sponsors a:hover{
+	background-position:0px -18px;
+	}
+	
+	
+#main_navigation .nav_venue a{
+	background:transparent url(../images/navigation/main_venue.gif) no-repeat scroll 0 0;
+	width:76px;
+	}
+#main_navigation .nav_venue a:hover{
+	background-position:0px -18px;
+	}
+	
+	
+#main_navigation .nav_contact a{
+	background:transparent url(../images/navigation/main_contact.gif) no-repeat scroll 0 0;
+	width:110px;
+	}
+#main_navigation .nav_contact a:hover{
+	background-position:0px -18px;
+	}
+	
+
+#subnav .sub_events a{
+	background:transparent url(../images/navigation/under_events.gif) no-repeat scroll 0 0;
+	width:212px;
+	}
+#subnav .sub_events a:hover{
+	background-position:0px -18px;
+	}
+	
+#subnav .sub_press a{
+	background:transparent url(../images/navigation/under_press.gif) no-repeat scroll 0 0;
+	width:70px;
+	}
+#subnav .sub_press a:hover{
+	background-position:0px -18px;
+	}
+#main_navigation .active a{
+	background-position:0px -18px;
+}
