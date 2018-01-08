@@ -154,7 +154,7 @@ div#logo  {float:left;margin-left:25px;}
 
 .pagenav{text-align: center; position:relative;text-transform:uppercase;border-top:1px solid #f4f4f4;border-bottom:1px solid #f4f4f4;}
 .pagenav.fixedmenu .menu  {float:right; width:auto;}
-div#logo {position:relative;float:left;margin:17px 0;margin-right:0px;padding: 5px 0 0;}
+div#logo {position:relative;float:left;margin:17px 0;margin-right:0px;padding: 5px 0 0;text-align: left;}
 .pagenav.fixedmenu {border:none !important;}
 .pagenav li a{float:left; padding: 15px 12px 18px 12px;letter-spacing:2px;}
 .pagenav li:first-child a {padding-left:0px;}
@@ -1496,10 +1496,11 @@ a.catlink {font-size:12px;text-transform:uppercase;text-align:center;margin:0 5p
 	
 	.pagenav {width:100% !important;padding: 0px 3.2%;margin-left:-3.2%;width:100%;float:left;}
 	.pagenav .social_icons {position:relative;text-align:center ;left:50%;margin:0 auto !important;margin-left:-90px !important;float: none;margin-top: 14px !important;}
-	
-	
-	 
-	.top-wrapper-content, .pmc-main-menu, .logo-inner, .widget img, #header, .block1_inner, .sidebar-fullwidth{width:100%;}
+    div#logo img {width: 80%}
+
+
+
+    .top-wrapper-content, .pmc-main-menu, .logo-inner, .widget img, #header, .block1_inner, .sidebar-fullwidth{width:100%;}
 	.sidebar-fullwidth, .sidebars {width:96% !important;}
 	
 	.top-right {float:right;width:auto;margin-right:5%;}
