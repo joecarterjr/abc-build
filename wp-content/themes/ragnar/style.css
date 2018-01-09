@@ -1602,7 +1602,7 @@ a.catlink {font-size:12px;text-transform:uppercase;text-align:center;margin:0 5p
    .grid .blogpostcategory, .grid .slider-category {max-width:265px;}
    .block2_img .block2_img_big {margin-right:25px;}
    .mainwrap.blog.sidebar.grid .main .content.blog .blogimage {margin-right:0;}
-    div#logo a img {width: 80%;}
+    .logo-inner img {width: 80%;}
     div#logo {text-align: left;}
 }
 @media screen and (min-width:768px) and (max-width:1220px){
