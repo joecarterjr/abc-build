@@ -154,7 +154,8 @@ div#logo  {float:left;margin-left:25px;}
 
 .pagenav{text-align: center; position:relative;text-transform:uppercase;border-top:1px solid #f4f4f4;border-bottom:1px solid #f4f4f4;}
 .pagenav.fixedmenu .menu  {float:right; width:auto;}
-div#logo {position:relative;float:left;margin:17px 0;margin-right:0px;padding: 5px 0 0;}
+div#logo {position:relative;float:left;margin:0;margin-right:0;padding:0;}
+#logo img {width: 50% !important;}
 .pagenav.fixedmenu {border:none !important;}
 .pagenav li a{float:left; padding: 15px 12px 18px 12px;letter-spacing:2px;}
 .pagenav li:first-child a {padding-left:0px;}
