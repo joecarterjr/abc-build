@@ -1500,17 +1500,18 @@ a.catlink {font-size:12px;text-transform:uppercase;text-align:center;margin:0 5p
 
     .top-wrapper-content, .pmc-main-menu, .logo-inner, .widget img, #header, .block1_inner, .sidebar-fullwidth{width:100%;}
 	.sidebar-fullwidth, .sidebars {width:96% !important;}
+    #headerwrap {height: auto;}
 	
 	.top-right {float:right;width:auto;margin-right:5%;}
 	.top-left {float:left;width:auto;margin-left:5%;}
 	.menu > li {padding-bottom:0;}
     #menu-main-menu-container{width:100% !important;float:left;text-align:center; }
 	.pagenav li a {padding:15px 15px 7px 15px;}
-	#logo {width:100%;margin:35px 0 25px 0px !important;float:left;}
+    #logo {width:100%;margin:35px 0 25px 0px !important;float:left;}
 	.top-search-form {margin:-15px 10px 15px 0px;}
 	ul#menu-top-menu {top:-1px;right:50%;padding-left:0;margin-right:-80px;}
 	ul#menu-top-menu li:first-child a {border:none;}
-	
+
 	.news-wrapper-content{margin-top:80px;}
 	.top-search-form input {top:84px;}
 	
@@ -1599,11 +1600,11 @@ a.catlink {font-size:12px;text-transform:uppercase;text-align:center;margin:0 5p
    .widgett .wttitle, .widgett .widget-date, .widget.category_posts .wttitle {max-width: 120px !important;}
    .sidebar .social_icons a { margin-right:0px;}
    .mainwrap {padding-top:100px;}
+    #logo {width:100%;margin:10px auto;float:left;}
    .sidebar .blogpostcategory img {max-width:100% !important;}
    .grid .blogpostcategory, .grid .slider-category {max-width:265px;}
    .block2_img .block2_img_big {margin-right:25px;}
    .mainwrap.blog.sidebar.grid .main .content.blog .blogimage {margin-right:0;}
-    div#logo a img {width: 80%;}
     div#logo {text-align: left;}
 }
 @media screen and (min-width:768px) and (max-width:1220px){
@@ -1625,6 +1626,7 @@ a.catlink {font-size:12px;text-transform:uppercase;text-align:center;margin:0 5p
 	
 	/* MENU */
 	#headerwrap {height:auto;}
+    div#logo {float: none;width: 320px;}
 	.respMenu {width:100% !important;  float:left !important;  text-transform:uppercase;text-align:center;background:#fff;background:none; text-align: center;color: #fff;font-weight:normal;cursor:pointer;display:block;}
 	.resp_menu_button {font-size:14px;position:absolute;  text-align:center;margin:0 auto;top:30px;color: #fff;z-index:9999;width:32px;height:24px;left:50%;margin-left:-16px;  }
 	.respMenu.noscroll a i {display:none;}
