@@ -1508,7 +1508,7 @@ a.catlink {font-size:12px;text-transform:uppercase;text-align:center;margin:0 5p
 	.menu > li {padding-bottom:0;}
     #menu-main-menu-container{width:100% !important;float:left;text-align:center; }
 	.pagenav li a {padding:15px 15px 7px 15px;}
-    #logo {width:100%;margin:35px 0 25px 0px !important;float:left;}
+    #logo {width:100%;margin:35px 0 25px 0px;float:left;}
 	.top-search-form {margin:-15px 10px 15px 0px;}
 	ul#menu-top-menu {top:-1px;right:50%;padding-left:0;margin-right:-80px;}
 	ul#menu-top-menu li:first-child a {border:none;}
