@@ -420,7 +420,7 @@ input.wpcf7-submit:hover {background:#222;}
 .blog_category em {font-style:normal;border-bottom:2px solid #000;padding-bottom:2px;}
 
 .post-meta {text-align:left;margin:0px 0;text-transform:uppercase;font-size:14px; padding:0 0px 0 0px;margin-bottom:10px; }
-.default .post-meta {margin-left:28px;margin-top:2px; }
+.default .post-meta {margin-top:2px; }
 
 
 .single .post-meta  {margin-bottom:0px;margin-left:30px;}
@@ -431,10 +431,10 @@ input.wpcf7-submit:hover {background:#222;}
 
 a.post-meta-author:hover {text-decoration:underline;}
 
-.post-meta {color:#666;letter-spacing:1px;text-align:center;margin-top:2px; }
+.post-meta {color:#000;letter-spacing:1px;text-align:left;}
 .grid .post-meta {float:left;text-align:left;margin-top:-5px;margin-left:20px;text-transform:capitalize;letter-spacing:0;font-weight:normal;}
 .grid .post-meta a {letter-spacing:0 !important;font-weight:normal;}
-.post-meta a {color:#999;font-style:normal;display:inline;/* letter-spacing:0.5px; */margin-right:25px;font-size: 14px;font-weight:bold; }
+.post-meta a {color:#000;font-style:normal;display:inline;/* letter-spacing:0.5px; */margin-right:25px;font-size: 14px;font-weight:bold; }
 .single-download .post-meta {display:none;}
 .grid .post-meta a {font-size:12px;letter-spacing:1px;margin-right:15px;}
 .single-download .content.singledefult h2.title {border:none;padding-top:0;}
@@ -445,7 +445,7 @@ a.post-meta-author:hover {text-decoration:underline;}
 	width: 4px;
     height: 4px;
 	border-radius:90px; 
-    background:#ccc ;
+    background:#999;
     margin-top:14.5px;
     margin-left:12px;
     position:absolute;
